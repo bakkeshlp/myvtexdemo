@@ -5,7 +5,7 @@
     },
     "children": [
       "menu-item#category-apparel",
-      "menu-item#category-home",
+      "menu-item#ella",
       "menu-item#more"
     ]
   },
@@ -14,7 +14,7 @@
       "id": "menu-item-category-apparel",
       "type": "custom",
       "iconId": null,
-      "highlight": false,
+      "highlight": true,
       "itemProps": {
         "type": "internal",
         "href": "/electronics",
@@ -50,7 +50,7 @@
       "id": "menu-item-category-apparel-clothing",
       "type": "custom",
       "iconId": null,
-      "highlight": false,
+      "highlight": true,
       "itemProps": {
         "type": "internal",
         "href": "/electronics/computers",
@@ -65,7 +65,7 @@
       "id": "menu-item-category-apparel-accessories",
       "type": "custom",
       "iconId": null,
-      "highlight": false,
+      "highlight": true,
       "itemProps": {
         "type": "internal",
         "href": "/electronics/mobiles",
@@ -76,18 +76,69 @@
     }
   },
  
-  "menu-item#category-home": {
+  "menu-item#ella": {
     "props": {
-      "id": "menu-item-category-home",
+      "id": "menu-item-ella",
       "type": "custom",
       "iconId": null,
-      "highlight": false,
+      "highlight": true,
       "itemProps": {
         "type": "internal",
-        "href": "/home---decor/",
+        "href": "/ella",
         "noFollow": false,
-        "tagTitle": "Home & Decor",
-        "text": "Home & Decor"
+        "tagTitle": "Ella",
+        "text": "Ella "
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#ella"
+    ]
+  },
+  "vtex.menu@2.x:submenu#ella": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#ella"
+    ]
+  },
+  "vtex.menu@2.x:menu#ella": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#ella-zapatos",
+      "menu-item#ella-ropa"
+     
+    ]
+  },
+  "menu-item#ella-zapatos": {
+    "props": {
+      "id": "menu-item-ella-zapatos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronics/computers",
+        "noFollow": false,
+        "tagTitle": "Zapatos",
+        "text": "Zapatos"
+      }
+    }
+  },
+  "menu-item#ella-ropa": {
+    "props": {
+      "id": "menu-item-ella-ropa",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ella/ropa",
+        "noFollow": false,
+        "tagTitle": "Ropa",
+        "text": "Ropa"
       }
     }
   },
@@ -96,7 +147,7 @@
       "id": "menu-item-custom-sale",
       "type": "custom",
       "iconId": null,
-      "highlight": false,
+      "highlight": true,
       "itemProps": {
         "type": "internal",
         "href": "#",
@@ -147,7 +198,7 @@
       "id": "menu-item-about-us",
       "type": "custom",
       "iconId": null,
-      "highlight": false,
+      "highlight": true,
       "itemProps": {
         "type": "internal",
         "href": "/about-us",
@@ -162,7 +213,7 @@
       "id": "menu-item-faq",
       "type": "custom",
       "iconId": null,
-      "highlight": false,
+      "highlight": true,
       "itemProps": {
         "type": "internal",
         "href": "/faq",
@@ -177,7 +228,7 @@
       "id": "menu-item-contact-us",
       "type": "custom",
       "iconId": null,
-      "highlight": false,
+      "highlight": true,
       "itemProps": {
         "type": "internal",
         "href": "/contact-us",
